@@ -1,7 +1,11 @@
-package springapp.repository;
+package springapp.domain;
 
 import java.util.List;
+
+import org.springframework.test.AbstractTransactionalDataSourceSpringContextTests;
+
 import springapp.domain.*;
+import springapp.repository.ProductDao;
 public class JdbcProductDaoTests extends AbstractTransactionalDataSourceSpringContextTests {
 
     private ProductDao productDao;
